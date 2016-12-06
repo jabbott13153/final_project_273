@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="35dfd5a5-63ac-41a7-ae69-40a0a48f45cd" name="CS 273 Resturant Simulation" linkedPackageId="20071599-8b69-40f9-a95d-c3728fa2efd8" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="576cc26b-f3ac-4e85-a6ad-a5979d63df94">
+      <profileInstance Id="2b9b8818-2d9f-4d77-adb9-e4503e4e0098" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="a732d0ae-120c-4277-a6d2-1d228560b676">
+      <profileInstance Id="9291e5cf-7b86-4632-9588-86532c9c2a2b" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="590291c8-c976-471a-993f-ac3f8b86132c" name="Customer" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="adf70358-c38e-43c5-aaf7-30603ad7e274" />
+        <ownedAttributesInternal>
+          <property Id="b429666c-dfd0-4465-ba74-0507b9740087" name="unsigned double main_chance" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a7319134-6895-41ea-962c-9f8fc29f1dd4" />
+          </property>
+          <property Id="f70b95a6-beb4-4171-9cc5-3483d791482b" name="unsigned double drink_chance" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="dd0bf711-af2c-42ae-b839-1752db4e2d94" />
+          </property>
+          <property Id="155f6371-a355-4070-a93f-1c00fcefd9d8" name="unsigned double dessert_choice" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="16dd6632-c301-4979-9627-9a84f5aab48d" />
+          </property>
+          <property Id="6fda7195-07fa-4d60-ab1c-d2244519b295" name="unsigned double app_chance" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5f244e92-aa90-45dc-965f-ced406e32555" />
+          </property>
+          <property Id="4f1bf771-0644-4c49-be83-56a6cba9cff7" name="Menu order" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="934f6efd-619c-4dc3-bc72-16a84d592fab" />
+          </property>
+          <property Id="9cc47c05-7576-4870-8aae-cc2c3f99c2e3" name="unsigned short int eating_min" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5413bda2-bb57-4ad7-ae46-a0cb0ca0c646" />
+          </property>
+          <property Id="a112d003-bf66-455b-b60e-2188b65e6644" name="unsigned short int eating_max" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c1d0079d-6ded-4d3e-bd40-c5d9797c0edd" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="8b03efe9-b099-476a-97a3-dec014f94648" name="make_order" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="be13df87-ef4a-42ac-9e22-3a89eb97342b" />
+          </operation>
+          <operation Id="15d74fb4-4df8-445b-9ed2-337844c2faf2" name="pay_bills" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="06c4f410-640f-490d-a8a1-570e4ba89a69" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2ea13bb8-c58e-4e4a-a94e-8cdfcd0c2438" name="Resturaunt" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="27f67971-e50b-4a80-a818-1ad6562bac27" />
+        <targetEnds>
+          <association Id="ef07ee50-cfdf-4bff-8b40-755d7e5c965b" isDerived="false" sourceEndRoleName="Resturaunt" targetEndRoleName="Customer" isLeaf="false" isAbstract="false">
+            <classMoniker Id="590291c8-c976-471a-993f-ac3f8b86132c" LastKnownName="Customer" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7d48bd7a-7dc3-40a7-9542-e54d32e71737" name="Resturaunt" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="489ce9cb-b5e4-464c-b45e-8a64475b0613" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="44548a80-29ba-4828-b588-b31192a044a1" name="Customer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="1e8eb13f-6448-4b49-9936-a9495f425add" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f3b7793d-82d9-42ac-9815-fb28fa7d4bb5" />
+          </association>
+          <association Id="c49268c6-ad44-484d-b71f-2cf1e159c181" isDerived="false" sourceEndRoleName="Resturaunt" targetEndRoleName="Staff" isLeaf="false" isAbstract="false">
+            <classMoniker Id="4d2da55b-6f58-4a83-aeb0-cd5437c0bd33" LastKnownName="Staff" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a9cf2ed9-4355-4ca4-9470-10af494332e6" name="Resturaunt" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4deffa0f-bf01-40c0-9de2-ded4de86d2d0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1fecccb8-eada-49f9-887b-23c1d347824e" name="Staff" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="90d0ad69-ed10-4bd0-b719-3d3afdc28c86" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3561f70d-d26c-4fe1-acf5-40852a5fd968" />
+          </association>
+          <association Id="60351bc4-6924-4528-bb44-4d0ae3ab4fa6" isDerived="false" sourceEndRoleName="Resturaunt" targetEndRoleName="Menu" isLeaf="false" isAbstract="false">
+            <classMoniker Id="265bce4f-60a2-43fd-9cfd-0e09d3585069" LastKnownName="Menu" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ead6c9cb-ba3d-492a-96dd-0131d7a3f065" name="Resturaunt" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="92f3bb47-2a92-4e39-8f55-d7a7a209878b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e5982d32-00d9-4340-b254-c8777123d9f0" name="Menu" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="f19d410e-b81d-401c-9883-bc6e0400b7f3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="549e557d-8683-4191-a77c-27db6a337867" />
+          </association>
+          <association Id="f93b453a-9e0d-4081-9824-a32918929057" isDerived="false" sourceEndRoleName="Resturaunt" targetEndRoleName="Finances" isLeaf="false" isAbstract="false">
+            <classMoniker Id="86811f9a-726b-423a-a202-ee7be1f97434" LastKnownName="Finances" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="759b95f0-df3d-4678-9a0a-7a4af485eb9f" name="Resturaunt" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4206c272-c10f-44a1-a389-09ad619b1aa1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8ee1a587-6db9-4c13-9b4a-ea31a5537135" name="Finances" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="517218d4-47c1-4ad4-8c65-19938591cc71" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9e4a7892-ac3c-4cc6-81d2-1f5665aca353" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="90900bf1-104b-4938-af65-60268082b400" name="unsigned short int  num_tables" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9c5cefb6-8cbe-4312-94d2-060d8a28ca02" />
+          </property>
+          <property Id="e5174c82-723b-4de2-a606-94ff5328358c" name="Customer  customers" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="dcb0b313-b504-42dc-b0ec-0311ae8bad39" />
+          </property>
+          <property Id="0020b490-377d-475e-9610-91d1d32880ce" name="unsigned short int max_c" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0b6da89b-8d44-4a7b-b041-ed285f774e66" />
+          </property>
+          <property Id="2fe99feb-608d-4762-bc9f-ab65522430a3" name="unsigned hsortint min_s" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6601a095-b2db-4fd2-8d34-9d19704ff609" />
+          </property>
+          <property Id="de97e506-06ad-467c-a3f5-94a5fd259ad9" name="unsigned hsortint min_c" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="95b97bb1-d530-4c6b-9213-9ba45ad48c9f" />
+          </property>
+          <property Id="4493a807-d1a5-427c-a028-c12849d81c83" name="unsigned short int max_s" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0d37e0f7-40c2-4ffc-ae21-b52f28291e06" />
+          </property>
+          <property Id="ccca475e-11e0-498d-aadc-fb45efb6838a" name="unsigned short int max_bb" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8c9cc11d-a673-4010-a8b3-69b2f35d5f59" />
+          </property>
+          <property Id="34986aec-89f3-4bb2-931e-b8bd02ffa6c1" name="unsigned shortint min_bb" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="fde6e994-0c52-4ee9-9529-89dd662edc79" />
+          </property>
+          <property Id="d00182d8-2c72-4280-a233-d082bb0b88c0" name="Attribute1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9559121f-e49a-4831-b544-71d5a46775a0" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="fd660157-7558-4c8a-b1b3-6c011f4e82e7" name="void run_sim" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c9f8020c-2341-4296-a6b9-f8aef001aabb" />
+          </operation>
+          <operation Id="4124876e-1f04-4732-b242-41883d658994" name="void do_stuff" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4145e158-5299-41a9-b788-59e24953b5b6" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="4d2da55b-6f58-4a83-aeb0-cd5437c0bd33" name="Staff" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="cb6b1ed9-06b7-418c-8e21-03bf2f814553" />
+        <ownedOperationsInternal>
+          <operation Id="0ab925d2-7d87-461a-b811-17981cf2c515" name="+ virtual void do_work() = 0" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="617edeae-b905-4e63-9d9b-d6c29a1aed5e" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="fde8dba7-c430-46ac-9fab-7c9cef23b4f8" name="Cook" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="fb90ce94-9201-4791-957e-09d48421a4a6" />
+        <generalsInternal>
+          <generalization Id="ae27551c-d9dc-4c49-8ec7-86f5ec317723" isSubstitutable="false">
+            <classMoniker Id="4d2da55b-6f58-4a83-aeb0-cd5437c0bd33" LastKnownName="Staff" />
+            <elementDefinition Id="af604ac4-f912-4cd6-8152-84f80d2ed626" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="b27fdac3-5866-4056-baab-17714692eb7b" name="unsigned short int num_cooks" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d1d180bf-c1f3-4829-be19-85779913202e" />
+          </property>
+          <property Id="f2f7ca91-8385-4d28-8ce8-6bf8d300f946" name="unsigned short int max_time" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9e855d4d-19d6-45fe-b360-c840bcabeaa1" />
+          </property>
+          <property Id="6d333c56-abb3-4aee-8047-025b6e612e52" name="unsigned short int min_time" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5d593f1b-a4da-4937-8204-e6f4e81cd589" />
+          </property>
+          <property Id="e43e0215-e795-444e-8f39-30de9259096a" name="unsigned double pay_rate" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a67103bc-ca5a-45f1-96ff-e0228e81bb8a" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="fbc5670d-1a40-4f29-940a-2dcfad3dd70f" name="void do_work" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ea531d34-d0e2-49eb-8cf5-85f862e7837f" />
+          </operation>
+          <operation Id="fdb6b1b4-12c2-45ed-a7dd-e7a89c143ef8" name="Cook cook" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="212e0fce-4baf-429e-acb1-b3051a47ded4" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="42b32a1a-bb0a-43ba-ba1c-4a5419653e05" name="Server" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="066fa9f6-983f-4f24-9ef6-34843557e44c" />
+        <generalsInternal>
+          <generalization Id="7e0648eb-d47a-4327-9fbe-902de19eb5e0" isSubstitutable="false">
+            <classMoniker Id="4d2da55b-6f58-4a83-aeb0-cd5437c0bd33" LastKnownName="Staff" />
+            <elementDefinition Id="1356a100-a0e1-46d7-a53e-b7fb1eeb1daa" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="18249ba9-0b50-4897-84d3-bae1ca240c43" name="unsigned short int max_time" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="312ceba1-41e6-4615-80ed-20f6b7b25134" />
+          </property>
+          <property Id="d78c7de9-ac01-4ab2-84df-d9f47d9323b7" name="unsigned short int min_time" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="019141ab-59ab-468d-b1c5-8a5e0b9d0320" />
+          </property>
+          <property Id="da0a8286-b5e8-4335-99a6-045d54ad45d4" name="unsigned short int num_servers" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="524470f2-7926-423c-9507-c51cdd68ab2f" />
+          </property>
+          <property Id="b64c5426-6717-4c66-8bd2-caccc0decce5" name="unsigned double pay_rate" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b103970e-ad17-47e4-838d-567f3a07ca5c" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="decc7c0e-b9e1-45eb-b0de-76378cbaa19e" name="void do_work" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="077efe5a-cb6a-4102-88d8-cfdabfd93325" />
+          </operation>
+          <operation Id="3434d55c-cb81-49e5-aa70-d8086b28df83" name="Server server" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="87388429-b36c-4837-ae66-74d186c249bc" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="6b3703bb-1839-40ee-8400-bd10a53aad27" name="Busboy" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a6384789-ec42-429a-8580-08631b30d9a2" />
+        <generalsInternal>
+          <generalization Id="a9a66d72-9628-430a-9fe9-4ff412150cda" isSubstitutable="false">
+            <classMoniker Id="4d2da55b-6f58-4a83-aeb0-cd5437c0bd33" LastKnownName="Staff" />
+            <elementDefinition Id="2e939375-6f0a-4bf8-aff7-77a9de331578" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="da7739da-c18f-4b76-af74-88974228c076" name="unsigned short int max_time" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0297eb96-6b4a-4c30-9f0a-b2e686474ad0" />
+          </property>
+          <property Id="4c9bdd7b-08f8-45d7-a752-ccd672630923" name="unsigned short int min_time" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="893beaf7-ba97-48fa-a43e-bf4ed0bd2aae" />
+          </property>
+          <property Id="7943f4e2-5016-44c5-ab61-6e9b924aed83" name="unsigned short int num_bb" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="79afd4fe-0b54-4343-aa2b-b09e977ea907" />
+          </property>
+          <property Id="861a5bc8-7bd3-4693-b25f-e918ac13ac0e" name="unsigned double pay_rate" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c390810a-7664-4838-a2c5-a6efa392665d" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="fba83b25-ff3d-4021-bc22-5cd7e1d95d28" name="void do_work" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="dbb80337-b96a-4100-ac00-7b34c60046e8" />
+          </operation>
+          <operation Id="13e0a86f-546a-48c6-bedf-0888f188eade" name="Busboy busboy" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="bd8ea623-105e-4ee0-8f97-c5edb796712f" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="265bce4f-60a2-43fd-9cfd-0e09d3585069" name="Menu" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="44568ae9-d47b-4814-975f-0339dc6f62f5" />
+        <ownedAttributesInternal>
+          <property Id="920ff20e-6bcb-428b-94f5-51f0132ee572" name="-unsigned double price" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4cf17ee8-90fa-46ee-84d6-f65f0267e7b3" />
+          </property>
+          <property Id="4ed9515c-7d7f-4c32-b096-36ac6e8a6094" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9dca4947-dd40-425b-b6ad-1fc84a622fea" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="d3123b28-099d-4eeb-bdd1-03bd94921ff2" name="virtual void make_order" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="36f4de63-32bb-4dee-b693-b4117157675d" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="6e75ce0c-e4ff-4e5b-8e5b-e4a3e8b8fe13" name=")" direction="In" isUnique="false">
+                  <elementDefinition Id="0ae3a008-41cf-4e1d-8b57-fc8ca2f8bc29" />
+                  <defaultValue>
+                    <literalString Id="2e6aa9bf-9f50-437c-9fec-4da72abfb488" name="DefaultValue" value="0(">
+                      <elementDefinition Id="c516e78a-6e6d-494c-ad4d-46a32cf3a629" />
+                    </literalString>
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="86811f9a-726b-423a-a202-ee7be1f97434" name="Finances" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e87285df-e3aa-49ce-b4e1-d9c69db11103" />
+        <ownedAttributesInternal>
+          <property Id="15c57e3d-83a6-43e1-a629-597e1dd5643c" name="double expenses" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="46cd23a4-6c77-4baa-859e-183e233e3ed5" />
+          </property>
+          <property Id="7af8b6aa-856c-4b36-b951-aefb4531e539" name="double profits" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ab7c6171-dcd4-4ba9-9e52-73e5910fe51e" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="43b172ad-cadc-4ed7-b3e5-30be2318cc23" name="double making_a_profit" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b2edbcbd-d563-4581-98bd-7c9ea364eebe" />
+          </operation>
+          <operation Id="f537d894-f772-4b66-970e-fcadb5a220ad" name="double paying_expenses" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="736722fd-e0f4-4ed7-9af4-afbe51b3e7d2" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="70d25166-0e6a-4598-a628-4c89611c7b65" name="Main Course Menu" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="6656baf6-2bae-47b8-b7a5-edcec318b4bd" />
+        <generalsInternal>
+          <generalization Id="f6b01a78-2c66-4a4d-bb44-b6c6796900f2" isSubstitutable="false">
+            <classMoniker Id="265bce4f-60a2-43fd-9cfd-0e09d3585069" LastKnownName="Menu" />
+            <elementDefinition Id="eda1698b-b036-41e2-93dc-093cdb4791ca" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="591d8e43-c5fd-41aa-a27e-409a0238ebfc" name="ordered_map&lt;string food_options, ouble price&gt;" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="38996030-1b57-4f47-afab-adcacdac4823" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2f5f5aed-0a7a-45f2-9a63-fbaab637490c" name="Drink Menu" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="eafd0a69-2991-4235-b858-204fac6c49cf" />
+        <generalsInternal>
+          <generalization Id="247d8262-b3d4-4a4e-a8aa-4872a3949ada" isSubstitutable="false">
+            <classMoniker Id="265bce4f-60a2-43fd-9cfd-0e09d3585069" LastKnownName="Menu" />
+            <elementDefinition Id="17dc7991-d0c7-417d-b21c-e92db1cff908" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="49602888-1507-411d-aa20-5ba7744cff71" name="Dessert Menu" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="388223b0-dd0e-4929-8395-bb5fdb4610ee" />
+        <generalsInternal>
+          <generalization Id="665cedab-b86f-44a1-a92e-e615515fb0d5" isSubstitutable="false">
+            <classMoniker Id="265bce4f-60a2-43fd-9cfd-0e09d3585069" LastKnownName="Menu" />
+            <elementDefinition Id="790abe59-b567-4efd-97b5-4df9f884ed02" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="56f644ea-1067-4106-a321-b3cb3c917fe6" name="Appetizer Menu" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c6594616-cc6b-4291-9c66-848ac426f25d" />
+        <generalsInternal>
+          <generalization Id="bc898419-64f8-4240-82ef-1e08a6d40ef5" isSubstitutable="false">
+            <classMoniker Id="265bce4f-60a2-43fd-9cfd-0e09d3585069" LastKnownName="Menu" />
+            <elementDefinition Id="64691df1-1a58-4670-8b5e-489e53ff3f71" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b93421e3-dc66-439e-b192-d08ef66c10ee" name="Cycle" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="47792fdc-524a-4816-93a5-bd66f7e9555c" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="20071599-8b69-40f9-a95d-c3728fa2efd8" name="ModelingProject1">
+    <elementDefinition Id="8f9dcda5-ce6a-4764-8d42-ba2d73791703" />
+  </package>
+</logicalClassDesignerModel>

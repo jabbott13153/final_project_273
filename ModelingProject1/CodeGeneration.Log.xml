@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 14.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2016-12-05T14:55:10" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2016-12-05T14:55:10" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2016-12-05T14:55:10" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2016-12-05T14:55:10" Importance="Diagnostic" Text="ProjectPath = ..\ModelingProject1Lib\ModelingProject1Lib.csproj" />
+  <Message Timestamp="2016-12-05T14:55:10" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2016-12-05T14:55:10" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2016-12-05T14:55:10" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2016-12-05T14:55:10" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2016-12-05T14:55:10" Importance="Medium" Text="ModelingProject1's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'ModelingProject1::Staff' -  (Class), 'ModelingProject1::Resturaunt' -  (Class), 'ModelingProject1::Cook' -  (Class), 'ModelingProject1::Server' -  (Class), 'ModelingProject1::Busboy' -  (Class), 'ModelingProject1::Menu' -  (Class), 'ModelingProject1::Customer' -  (Class), 'ModelingProject1::Finances' -  (Class), 'ModelingProject1::Appetizer Menu' -  (Class), 'ModelingProject1::Main Course Menu' -  (Class), 'ModelingProject1::Drink Menu' -  (Class), 'ModelingProject1::Dessert Menu' -  (Class) " />
+  <Message Timestamp="2016-12-05T14:55:29" Importance="Medium" Text="Project Added: C:\Users\jabbott19\Desktop\CS 273 Final Project\ModelingProject1Lib\ModelingProject1Lib.csproj" />
+  <Message Timestamp="2016-12-05T14:55:29" Importance="Medium" Text="'ModelingProject1::Staff' -  (Class) : success (file created) - C:\Users\jabbott19\Desktop\CS 273 Final Project\ModelingProject1Lib\GeneratedCode\Staff.cs" />
+  <Message Timestamp="2016-12-05T14:55:30" Importance="Medium" Text="'ModelingProject1::Resturaunt' -  (Class) : success (file created) - C:\Users\jabbott19\Desktop\CS 273 Final Project\ModelingProject1Lib\GeneratedCode\Resturaunt.cs" />
+  <Message Timestamp="2016-12-05T14:55:30" Importance="Medium" Text="'ModelingProject1::Cook' -  (Class) : success (file created) - C:\Users\jabbott19\Desktop\CS 273 Final Project\ModelingProject1Lib\GeneratedCode\Cook.cs" />
+  <Message Timestamp="2016-12-05T14:55:31" Importance="Medium" Text="'ModelingProject1::Server' -  (Class) : success (file created) - C:\Users\jabbott19\Desktop\CS 273 Final Project\ModelingProject1Lib\GeneratedCode\Server.cs" />
+  <Message Timestamp="2016-12-05T14:55:31" Importance="Medium" Text="'ModelingProject1::Busboy' -  (Class) : success (file created) - C:\Users\jabbott19\Desktop\CS 273 Final Project\ModelingProject1Lib\GeneratedCode\Busboy.cs" />
+  <Message Timestamp="2016-12-05T14:55:31" Importance="Medium" Text="'ModelingProject1::Menu' -  (Class) : success (file created) - C:\Users\jabbott19\Desktop\CS 273 Final Project\ModelingProject1Lib\GeneratedCode\Menu.cs" />
+  <Message Timestamp="2016-12-05T14:55:31" Importance="Medium" Text="'ModelingProject1::Customer' -  (Class) : success (file created) - C:\Users\jabbott19\Desktop\CS 273 Final Project\ModelingProject1Lib\GeneratedCode\Customer.cs" />
+  <Message Timestamp="2016-12-05T14:55:32" Importance="Medium" Text="'ModelingProject1::Finances' -  (Class) : success (file created) - C:\Users\jabbott19\Desktop\CS 273 Final Project\ModelingProject1Lib\GeneratedCode\Finances.cs" />
+  <Message Timestamp="2016-12-05T14:55:32" Importance="Medium" Text="'ModelingProject1::Appetizer Menu' -  (Class) : success (file created) - C:\Users\jabbott19\Desktop\CS 273 Final Project\ModelingProject1Lib\GeneratedCode\Appetizer Menu.cs" />
+  <Message Timestamp="2016-12-05T14:55:32" Importance="Medium" Text="'ModelingProject1::Main Course Menu' -  (Class) : success (file created) - C:\Users\jabbott19\Desktop\CS 273 Final Project\ModelingProject1Lib\GeneratedCode\Main Course Menu.cs" />
+  <Message Timestamp="2016-12-05T14:55:32" Importance="Medium" Text="'ModelingProject1::Drink Menu' -  (Class) : success (file created) - C:\Users\jabbott19\Desktop\CS 273 Final Project\ModelingProject1Lib\GeneratedCode\Drink Menu.cs" />
+  <Message Timestamp="2016-12-05T14:55:32" Importance="Medium" Text="'ModelingProject1::Dessert Menu' -  (Class) : success (file created) - C:\Users\jabbott19\Desktop\CS 273 Final Project\ModelingProject1Lib\GeneratedCode\Dessert Menu.cs" />
+  <Message Timestamp="2016-12-05T14:55:32" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2016-12-05T14:55:32" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2016-12-05T14:55:32" Importance="Diagnostic" Text="ProjectPath = ..\ModelingProject1Lib\ModelingProject1Lib.csproj" />
+  <Message Timestamp="2016-12-05T14:55:32" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2016-12-05T14:55:32" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2016-12-05T14:55:32" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2016-12-05T14:55:32" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2016-12-05T14:55:32" Importance="Medium" Text="ModelingProject1's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'ModelingProject1::Staff' -  (Class), 'ModelingProject1::Resturaunt' -  (Class), 'ModelingProject1::Cook' -  (Class), 'ModelingProject1::Server' -  (Class), 'ModelingProject1::Busboy' -  (Class), 'ModelingProject1::Menu' -  (Class), 'ModelingProject1::Customer' -  (Class), 'ModelingProject1::Finances' -  (Class), 'ModelingProject1::Appetizer Menu' -  (Class), 'ModelingProject1::Main Course Menu' -  (Class), 'ModelingProject1::Drink Menu' -  (Class), 'ModelingProject1::Dessert Menu' -  (Class) " />
+  <Message Timestamp="2016-12-05T14:55:33" Importance="Diagnostic" Text="'ModelingProject1::Staff' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-12-05T14:55:33" Importance="Diagnostic" Text="'ModelingProject1::Resturaunt' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-12-05T14:55:33" Importance="Diagnostic" Text="'ModelingProject1::Cook' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-12-05T14:55:33" Importance="Diagnostic" Text="'ModelingProject1::Server' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-12-05T14:55:33" Importance="Diagnostic" Text="'ModelingProject1::Busboy' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-12-05T14:55:33" Importance="Diagnostic" Text="'ModelingProject1::Menu' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-12-05T14:55:33" Importance="Diagnostic" Text="'ModelingProject1::Customer' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-12-05T14:55:33" Importance="Diagnostic" Text="'ModelingProject1::Finances' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-12-05T14:55:33" Importance="Diagnostic" Text="'ModelingProject1::Appetizer Menu' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-12-05T14:55:33" Importance="Diagnostic" Text="'ModelingProject1::Main Course Menu' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-12-05T14:55:33" Importance="Diagnostic" Text="'ModelingProject1::Drink Menu' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-12-05T14:55:33" Importance="Diagnostic" Text="'ModelingProject1::Dessert Menu' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-12-05T14:55:33" Importance="Diagnostic" Text="The selection included 11 elements which were not bound to a template." />
+  <Message Timestamp="2016-12-05T14:55:33" Importance="Diagnostic" Text="'ModelingProject1::' -  (Association): no bound template." />
+  <Message Timestamp="2016-12-05T14:55:33" Importance="Diagnostic" Text="'af604ac4-f912-4cd6-8152-84f80d2ed626' -  (Generalization): no bound template." />
+  <Message Timestamp="2016-12-05T14:55:33" Importance="Diagnostic" Text="'1356a100-a0e1-46d7-a53e-b7fb1eeb1daa' -  (Generalization): no bound template." />
+  <Message Timestamp="2016-12-05T14:55:33" Importance="Diagnostic" Text="'2e939375-6f0a-4bf8-aff7-77a9de331578' -  (Generalization): no bound template." />
+  <Message Timestamp="2016-12-05T14:55:33" Importance="Diagnostic" Text="'ModelingProject1::' -  (Association): no bound template." />
+  <Message Timestamp="2016-12-05T14:55:33" Importance="Diagnostic" Text="'ModelingProject1::' -  (Association): no bound template." />
+  <Message Timestamp="2016-12-05T14:55:33" Importance="Diagnostic" Text="'ModelingProject1::' -  (Association): no bound template." />
+  <Message Timestamp="2016-12-05T14:55:33" Importance="Diagnostic" Text="'64691df1-1a58-4670-8b5e-489e53ff3f71' -  (Generalization): no bound template." />
+  <Message Timestamp="2016-12-05T14:55:33" Importance="Diagnostic" Text="'eda1698b-b036-41e2-93dc-093cdb4791ca' -  (Generalization): no bound template." />
+  <Message Timestamp="2016-12-05T14:55:33" Importance="Diagnostic" Text="'17dc7991-d0c7-417d-b21c-e92db1cff908' -  (Generalization): no bound template." />
+  <Message Timestamp="2016-12-05T14:55:33" Importance="Diagnostic" Text="'790abe59-b567-4efd-97b5-4df9f884ed02' -  (Generalization): no bound template." />
+  <Message Timestamp="2016-12-05T14:55:33" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+</Log>
